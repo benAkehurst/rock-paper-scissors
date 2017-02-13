@@ -1,0 +1,15 @@
+* {
+	font-family: 'Lato', sans-serif;
+	background-color: yellow;
+	text-align: center;
+}
+
+.weaponUser > div {
+	display:inline-block;
+    margin:0 5px
+}
+
+.weaponUser > div > img {
+	width: 250px;
+	height: 250px;
+}
