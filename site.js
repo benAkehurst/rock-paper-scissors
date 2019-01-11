@@ -26,16 +26,16 @@
 		var computerChoice = "";
 		var userChoice = userChoice;
 		
-		var x = Math.random();
-		if(x < 0.33){
+		var x = Math.floor(Math.random() * 3);
+		if(x ==0){
 			computerChoice = "rock";
 			spanComputerOutcome.innerHTML = "rock";
 		}
-		else if (x > 0.33 && x < 0.66){
+		else if (x ==1){
 			computerChoice = "paper";
 			spanComputerOutcome.innerHTML = "paper";
 		}
-		else if (x > 0.66){
+		else if (x ==2){
 			computerChoice = "scissors";
 			spanComputerOutcome.innerHTML = "scissors";
 		}
